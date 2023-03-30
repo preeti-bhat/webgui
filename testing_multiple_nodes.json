@@ -1,0 +1,311 @@
+{
+    "nodes": [
+        {
+            "id": "LRT-SDN-R03-Dell-Z9100",
+            "group": "switch",
+            "testing": "notworking"
+        },
+        {
+            "id": "dellos9_s0",
+            "group": "switch",
+            "testing": "notworking"
+        },
+        {
+            "id": "LRT-SDN-R03-Dell-Z9100",
+            "group": "switch",
+            "testing": "notworking"
+        },
+        {
+            "id": "BUR0051",
+            "group": "switch",
+            "testing": "notworking"
+        },
+        {
+            "id": "lrt-sdn-r02-mlnx-sn3700",
+            "group": "switch",
+            "testing": "notworking"
+        },
+        {
+            "id": "k8s-nvme-01.ultralight.org",
+            "group": "switch",
+            "testing": "notworking"
+        },
+        {
+            "id": "sandie-4.ultralight.org",
+            "group": "server",
+            "testing": "notworking"
+        },
+        {
+            "id": "PB-R05-Dell-Z9264F",
+            "group": "switch",
+            "testing": "notworking"
+        },
+        {
+            "id": "PB-R05-Dell-Z9264F",
+            "group": "switch",
+            "testing": "notworking"
+        },
+        {
+            "id": "sandie-1.ultralight.org",
+            "group": "server",
+            "testing": "notworking"
+        },
+        {
+            "id": "sandie-5.ultralight.org",
+            "group": "server",
+            "testing": "notworking"
+        },
+        {
+            "id": "sandie-6.ultralight.org",
+            "group": "server",
+            "testing": "notworking"
+        },
+        {
+            "id": "PB-R05-Dell-Z9264F",
+            "group": "switch",
+            "testing": "notworking"
+        },
+        {
+            "id": "PB-R05-Dell-Z9264F",
+            "group": "switch",
+            "testing": "notworking"
+        },
+        {
+            "id": "lrt-sdn-r02-arista-7060cx",
+            "group": "switch",
+            "testing": "notworking"
+        },
+        {
+            "id": "BUR0002",
+            "group": "switch",
+            "testing": "notworking"
+        },
+        {
+            "id": "lrt-sdn-r02-arista-7060cx",
+            "group": "switch",
+            "testing": "notworking"
+        },
+        {
+            "id": "BUR0001",
+            "group": "switch",
+            "testing": "notworking"
+        },
+        {
+            "id": "k8s-gen4-07.ultralight.org",
+            "group": "server",
+            "testing": "notworking"
+        },
+        {
+            "id": "sdn-dtn-1-7.ultralight.org",
+            "group": "server",
+            "testing": "notworking"
+        },
+        {
+            "id": "k8s-gen4-07.ultralight.org",
+            "group": "server",
+            "testing": "notworking"
+        },
+        {
+            "id": "sandie-10.ultralight.org",
+            "group": "server",
+            "testing": "notworking"
+        },
+        {
+            "id": "lrt-sdn-r02-dell-s4810",
+            "group": "switch",
+            "testing": "notworking"
+        },
+        {
+            "id": "sdn-dtn-2-11.ultralight.org",
+            "group": "server",
+            "testing": "notworking"
+        },
+        {
+            "id": "sdn-dtn-2-09.ultralight.org",
+            "group": "server",
+            "testing": "notworking"
+        },
+        {
+            "id": "sandie-3.ultralight.org",
+            "group": "server",
+            "testing": "notworking"
+        },
+        {
+            "id": "sdn-dtn-2-10.ultralight.org",
+            "group": "server",
+            "testing": "notworking"
+        },
+        {
+            "id": "sandie-7.ultralight.org",
+            "group": "server",
+            "testing": "notworking"
+        },
+        {
+            "id": "LRT-R02-DELL-S60",
+            "group": "switch",
+            "testing": "notworking"
+        },
+        {
+            "id": "LRT-R01-DELL-S60",
+            "group": "switch",
+            "testing": "notworking"
+        },
+        {
+            "id": "LRT-R02-DELL-S60",
+            "group": "switch",
+            "testing": "notworking"
+        }
+    ],
+    "edges": [
+        {
+            "from": "dellos9_s0",
+            "to": "LRT-SDN-R03-Dell-Z9100",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "LRT-SDN-R03-Dell-Z9100",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "BUR0051",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "lrt-sdn-r02-mlnx-sn3700",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "k8s-nvme-01.ultralight.org",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "sandie-4.ultralight.org",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "PB-R05-Dell-Z9264F",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "PB-R05-Dell-Z9264F",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "sandie-1.ultralight.org",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "sandie-5.ultralight.org",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "sandie-6.ultralight.org",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "PB-R05-Dell-Z9264F",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "PB-R05-Dell-Z9264F",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "lrt-sdn-r02-arista-7060cx",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "BUR0002",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "lrt-sdn-r02-arista-7060cx",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "BUR0001",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "k8s-gen4-07.ultralight.org",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "sdn-dtn-1-7.ultralight.org",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "k8s-gen4-07.ultralight.org",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "sandie-10.ultralight.org",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "lrt-sdn-r02-dell-s4810",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "sdn-dtn-2-11.ultralight.org",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "sdn-dtn-2-09.ultralight.org",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "sandie-3.ultralight.org",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "sdn-dtn-2-10.ultralight.org",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "sandie-7.ultralight.org",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "LRT-R02-DELL-S60",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "LRT-R01-DELL-S60",
+            "link": "red"
+        },
+        {
+            "from": "dellos9_s0",
+            "to": "LRT-R02-DELL-S60",
+            "link": "red"
+        }
+    ]
+  }

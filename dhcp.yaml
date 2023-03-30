@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: dhcp
+  name: dhcp
+spec:
+  selector:
+    matchLabels:
+      app: dhcp
+  template:
+    metadata:
+      labels:
+        app: dhcp
+    spec:
+      hostNetwork: true
+      hostname: dhcp_server
+      containers:
+        - name: dhcp
+          image: preetibhat/sense_webgui:latest
+          imagePullPolicy: IfNotPresent
+          resources:
+            requests:
+              cpu: 250m
+              memory: 750Mi
+          volumeMounts:
+            - name: dhcp-config-vol
+              mountPath: /etc/dhcp/dhcpd.conf
+              subPath:  dhcpd.conf
+      volumes:
+        - name: dhcp-config-vol
+          configMap:
+            name: dhcpd-config

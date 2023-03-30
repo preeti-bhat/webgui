@@ -1,0 +1,54 @@
+{
+    "nodes": [
+        {
+            "id": "LRT-SDN-R02-Dell-Z9100",
+            "test": "edge1",
+            "group": "switch"
+        },
+        {
+            "id": "LRT-SDN-R03-Dell-Z9100",   
+            "test": "edge12",         
+            "group": "switch"
+        },
+        {
+            "id": "LRT-SDN-R0-Dell-Z9100",
+            "test": "edge11",
+            "group": "switch"
+        },
+        {
+            "id": "Remote System Name:  LRT-SDN-R03-Dell-Z9100",
+            "group": "switch",
+            "test": "notworking"
+        },
+        {
+            "id": "sandie-10.ultralight.org",
+            "test": "edge4",
+            "group": "server"
+        }
+
+    ], 
+    "edges": [
+        {
+            "from": "LRT-SDN-R02-Dell-Z9100",
+            "to": "LRT-SDN-R03-Dell-Z9100",
+            "link": "red"
+            
+        },
+        {
+            "from": "LRT-SDN-R02-Dell-Z9100",
+            "to": "LRT-SDN-R03-Dell-Z9100",
+            "link": "green"
+        },
+        {
+            "from": "LRT-SDN-R02-Dell-Z9100",
+            "to": "Remote System Name:  LRT-SDN-R03-Dell-Z9100",
+            "link": "green"
+        },
+        {
+            "from": "LRT-SDN-R02-Dell-Z9100",
+            "to": "sandie-10.ultralight.org",
+            "link": "blue"
+        }
+    ]
+    
+}
